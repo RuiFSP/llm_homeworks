@@ -42,7 +42,6 @@ def elastic_search(query, index_name = "course-questions"):
     
     return result_docs
 
-
 def build_prompt(query, search_results):
     prompt_template = """
 You're a course teaching assistant. Answer the QUESTION based on the CONTEXT from the FAQ database.
@@ -70,13 +69,11 @@ def llm(prompt):
     
     return response.choices[0].message.content
 
-
 def rag(query):
     search_results = elastic_search(query)
     prompt = build_prompt(query, search_results)
     answer = llm(prompt)
     return answer
-
 
 # Streamlit app
 def main():
