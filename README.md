@@ -35,4 +35,4 @@ The homework assignment for this module involved:
 
 This module served as a practical introduction to working with LLMs and RAG, setting the stage for more advanced topics in subsequent modules.
 
-For more detailed information on the study sessions and homework, refer to the [01-intro_study README.md](01-intro_study/README.md) and [homework01.ipynb](01-intro_homework/homework01.ipynb).
+For more detailed information on the study sessions and homework, refer to the [01-intro_study README.md](01-intro_study/README.md) and [homework01.ipynb](homeworks/01-homework/homework01.ipynb).
